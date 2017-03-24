@@ -1,0 +1,7 @@
+{
+    "name": "marbles/Spaceless",
+    "description": "Remove whitespaces between HTML tags.",
+    "license": "MIT",
+    "require": {
+    }
+}
