@@ -13,7 +13,7 @@ class SpacelessTags extends Tags
      */
     public function index()
     {
-        return trim(preg_replace('/>\s+</', '><', $this->content));
+        return trim(preg_replace('/>\s+</', '><', $this->parse()));
     }
 
 }
